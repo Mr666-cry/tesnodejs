@@ -1,0 +1,19 @@
+{
+  "name": "shadow-osint-bot",
+  "version": "1.0.0",
+  "description": "ShadowX OSINT Intelligence Bot for Telegram",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "build": "echo 'Building ShadowX Assets...'"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.6.7"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "ShadowX VIP",
+  "license": "MIT"
+}
